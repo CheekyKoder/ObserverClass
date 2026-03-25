@@ -12,12 +12,19 @@
 		<Item Name="ObserverClass.lvlib:ObserverClass.lvclass" Type="Friended Library" URL="../ObserverClass/ObserverClass.lvclass"/>
 	</Item>
 	<Item Name="Support" Type="Folder">
-		<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
-		<Item Name="checkDataType.vi" Type="VI" URL="../ObserverClass/Private/checkDataType.vi"/>
-		<Item Name="observerRegistry.vi" Type="VI" URL="../ObserverClass/Private/observerRegistry.vi"/>
+		<Item Name="checkDataType.vi" Type="VI" URL="../support/checkDataType.vi"/>
+		<Item Name="observerRegistry.vi" Type="VI" URL="../support/observerRegistry.vi">
+			<Property Name="NI.LibItem.Scope" Type="Int">4</Property>
+		</Item>
+		<Item Name="obtainObservableList.vi" Type="VI" URL="../support/obtainObservableList.vi"/>
+		<Item Name="checkIsInsideContainer.vi" Type="VI" URL="../support/checkIsInsideContainer.vi"/>
+		<Item Name="updateContainerElement.vi" Type="VI" URL="../support/updateContainerElement.vi"/>
 	</Item>
 	<Item Name="Messages" Type="Folder">
-		<Item Name="NotifyObserver.vi" Type="VI" URL="../messages/NotifyObserver.vi"/>
+		<Item Name="NotifyObserver_(poly).vi" Type="VI" URL="../messages/NotifyObserver_(poly).vi"/>
+		<Item Name="NotifyObserver_Array.vi" Type="VI" URL="../messages/NotifyObserver_Array.vi"/>
+		<Item Name="NotifyObserver_Container.vi" Type="VI" URL="../messages/NotifyObserver_Container.vi"/>
+		<Item Name="NotifyObserver_Single.vi" Type="VI" URL="../messages/NotifyObserver_Single.vi"/>
 	</Item>
 	<Item Name="ObserverClass.lvclass" Type="LVClass" URL="../ObserverClass/ObserverClass.lvclass"/>
 </Library>

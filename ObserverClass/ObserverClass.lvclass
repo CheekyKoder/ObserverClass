@@ -64,13 +64,13 @@
 	</Item>
 	<Item Name="Public" Type="Folder">
 		<Property Name="NI.SortType" Type="Int">3</Property>
-		<Item Name="subscribeToDataType.vi" Type="VI" URL="../Protected/subscribeToDataType.vi">
+		<Item Name="subscribeToDataType.vi" Type="VI" URL="../Public/subscribeToDataType.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 			<Property Name="NI.ClassItem.Flags" Type="Int">16777344</Property>
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1342710289</Property>
 		</Item>
 		<Item Name="createObserverEvent.vi" Type="VI" URL="../Public/createObserverEvent.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
@@ -94,7 +94,7 @@
 			<Property Name="NI.ClassItem.InvokeUsage" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 			<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-			<Property Name="NI.ClassItem.State" Type="Int">1342710288</Property>
+			<Property Name="NI.ClassItem.State" Type="Int">1115685392</Property>
 		</Item>
 		<Item Name="unregisterObserverEvent.vi" Type="VI" URL="../Public/unregisterObserverEvent.vi">
 			<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
